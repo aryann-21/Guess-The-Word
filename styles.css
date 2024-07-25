@@ -5,3 +5,19 @@ body {
 h1 {
   font-family: 'Poppins', sans-serif;
 }
+
+input {
+  caret-color: transparent;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+input:focus {
+  outline: 2px solid #f97316;
+}

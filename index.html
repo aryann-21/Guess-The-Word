@@ -6,33 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Wordle</title>
-  <style>
-    input {
-      caret-color: transparent;
-    }
-
-    body {
-      font-family: 'Poppins', sans-serif;
-    }
-
-    h1 {
-      font-family: 'Poppins', sans-serif;
-    }
-  </style>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
 </head>
-
 
 <body>
   <div class="w-full h-screen bg-[#121213] flex flex-col justify-start items-center p-10 mt-20">
     <nav class="fixed bg-zinc-950 top-0 left-0 right-0 h-20 flex justify-between items-center text-white px-10">
+      <img src="./icons/icons8-menu-50.png" class="w-7 cursor-pointer" alt="">
       <h1 class="logo text-orange-400 text-[36px] font-bold">Guess the word</h1>
       <div class="right flex">
         <ul class="flex space-x-6 text-lg">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Settings</a></li>
+          <li><a class="hover:text-orange-400" href="#">Settings</a></li>
         </ul>
       </div>
     </nav>
